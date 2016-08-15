@@ -121,6 +121,6 @@ class CsvManager
   end  
 end
 
-# csv_manager = CsvManager.new
-# csv_manager.process_csv("./shapes.csv")
-# csv_manager.print_procesed_content
+csv_manager = CsvManager.new
+csv_manager.process_csv("./shapes.csv")
+csv_manager.print_procesed_content

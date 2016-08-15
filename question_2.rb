@@ -4,7 +4,7 @@ def xml_parser(str)
   number_of_tags = arr_xml.length
 
   if invalid_string_input?(arr_xml, str) || invalid_xml_content?(arr_xml, number_of_tags)
-    raise "Error!"
+    raise "Invalid XML Error!"
   else
     print_xml(arr_xml, number_of_tags)
   end

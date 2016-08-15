@@ -1,5 +1,4 @@
 require 'colorize'
-require 'stringio'
 require './question_4.rb'
 
 @csv_manager = CsvManager.new

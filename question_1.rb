@@ -23,9 +23,3 @@ end
 array = [1,2,3,4,5,6]
 
 recursive_printer(array)
-
-=begin
-  For this challenge I used an index tracker for the recursive formula, this approach is suited for ruby, but would not work for a conccurent language.
-
-  An alternate solution would have been to pass an array as the accumulator which would then fed into a printer function which would handle the conversion into xml.
-=end
