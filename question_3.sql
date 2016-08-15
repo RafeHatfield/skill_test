@@ -8,4 +8,4 @@ FROM
 GROUP BY
   d.id
 
-Dog.left_outer_joins(:bones).select('dogs.id, COUNT(bones.dog_id) AS bone_count, AVG(bones.rating)').group('dogs.id')
+Dog.left_outer_joins(:bones).select('dogs.id, COUNT(bones.dog_id) AS bone_count, AVG(bones.rating) AS bone_rating').group('dogs.id')
