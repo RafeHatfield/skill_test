@@ -8,9 +8,9 @@ require './question_4.rb'
 @pentagon = Pentagon.new(4)
 @triangle = Triangle.new(4)
 @circle = Circle.new(4)
-@valid_csv = "./shapes.csv"
-@invalid_shapes_filepath = "./invalid_shapes.csv"
-@invalid_numbers_filepath = "./invalid_number.csv"
+@valid_csv = "./csv_files/shapes.csv"
+@invalid_shapes_filepath = "./csv_files/invalid_shapes.csv"
+@invalid_numbers_filepath = "./csv_files/invalid_number.csv"
 
 def passed_test
   puts "PASSED".green
